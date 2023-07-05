@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter&family=Crimson+Pro:wght@200&family=Dancing+Script&family=Fjalla+One&family=Monomaniac+One&family=Orbitron&family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@100&family=Sigmar&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4rem;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    gap: 15px;
+}
+ul li{
+    font-weight: 900;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.main-div{
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+nav{
+    background-color: rgb(230, 217, 241);
+    box-shadow: 0 0 4px rgb(192, 186, 175);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    padding: 3px;
+ 
+}
+.company-logo img{
+    width: 100px;
+}
+.new-input{
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    
+}
+.search-button{
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    margin-left: 5px;
+}
+.search-button:hover{
+    background-color: rgb(219, 141, 46);
+    cursor: pointer;
+}
+.new-input:hover{
+   
+    cursor: pointer;
+}
+.hover-link:hover{
+    color: rgb(221, 102, 102);
+    cursor: pointer;
+}
+.hover-link::active{
+    color: red;
+}
+main{
+    padding-block: 20px;
+    margin-top: 120px;
+}
+.cards-container{
+    justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  align-items: start;
+
+}
+.card{
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px pink;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: floralwhite;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: translateX(-10px);
+}
+.card-header img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-content{
+    padding: 12px;
+}
+.news-source{
+    margin-block: 12px;
+}
